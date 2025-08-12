@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://db.zspmimbqyoknvdqtgoik.supabase.co:5432/postgres
+    username: postgres
+    password: TUA_PASSWORD
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+
+  security:
+    user:
+      name: admin
+      password: admin123
+      roles: ADMIN
+
+server:
+  port: 8080
