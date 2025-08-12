@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://db.zspmimbqyoknvdqtgoik.supabase.co:5432/postgres
     username: postgres
-    password: TUA_PASSWORD
+    password: wijzyd-bypxy5-Vojjum
     driver-class-name: org.postgresql.Driver
 
   jpa:
